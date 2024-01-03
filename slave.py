@@ -2,7 +2,7 @@ import socket
 import pyautogui
 
 def start_server():
-    host = '0.0.0.0'  # Aceita conexões de qualquer endereço
+    host = '192.168.56.1'  # Aceita conexões de qualquer endereço
     port = 12345
 
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
